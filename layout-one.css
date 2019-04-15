@@ -13,18 +13,11 @@ body {
    
     float:left;
     width: 100%;
-    
-    background-image: url(/home/codex/projects/basic_website/table-mountain.jpg);
+    background-image: url(/home/codex/Documents/Projects/basic_website/tablemountain.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin-bottom: 0px;
 }
-
-
-
-
-
-
 
 .me{
     
@@ -66,18 +59,17 @@ body {
     font-size: 30px;
     float:left;
     width:75%;
-
-    
-
 }
 
 table,th,td{
     border: 2px solid black;
     border-collapse: collapse;
 }
+
 th{
     text-align: left;
 }
+
 .history{
 float: left;
 font-size: 30px;
@@ -94,49 +86,58 @@ font-size: 30px;
     overflow: auto;
     width: 50%;
 }
+
 .p2{
     float: left;
     overflow: auto;
 }
+
 .historic{
     float: left;
-    width:100%;
+    width:75%;
     overflow:auto;
 }
+
 .bo-kaap{
     float: left;
     width: 400px;
     margin-right: 20px;
     overflow: auto;
 }
+
 .greenmarket{
     float: right;
-    margin-right: 15px;
-    width:420px;
-    margin-left: 20px;
+    margin-right: 5px;
+    width:300px;
+    margin-left: 5px;
 }
+
 .p4{
     float: left;
     overflow: auto;
     font-size: 15px;
-
+    width: 75%
 
 }
+
 .goodhope{
     float: left;
-    width: 400px;
+    width: 350px;
     margin-right: 20px;
 }
+
 .p5{
     float: left;
     overflow: auto;
     font-size: 20px;
+    width: 75%;
 }
 
 .h1{
 
     font-size:60px;
 }
+
 .side-bar{
     float: right;
     width: 20%;
@@ -145,6 +146,7 @@ font-size: 30px;
     margin: 0px;
     overflow: auto;
 }
+
 .list1{
     float: left;
 }
