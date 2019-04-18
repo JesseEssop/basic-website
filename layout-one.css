@@ -1,11 +1,10 @@
 body {
             
     font-family: fantasy;
-   
-   width:100%;
-   height:auto;
-    margin: 5px;
-  
+    padding: 0em;
+   max-width: 100%;
+    height:auto;
+    
     background-color: rgb(191, 248, 255) 
 
 }
