@@ -3,6 +3,7 @@ body {
     font-family: fantasy;
    
    width:100%;
+   height:auto;
     margin: 5px;
   
     background-color: rgb(191, 248, 255) 
@@ -40,12 +41,13 @@ body {
 }
 .p1{
     float: left;
+    width:100%;
  
 }
 .Cities{
     overflow: auto;
     font-size: 30px;
-    width: 70%;
+    width: 100%;
   
    
 }
@@ -58,7 +60,7 @@ body {
    
     font-size: 30px;
     float:left;
-    width:75%;
+    width:100%;
 }
 
 table,th,td{
@@ -92,45 +94,10 @@ font-size: 30px;
     overflow: auto;
 }
 
-.historic{
-    float: left;
-    width:75%;
-    overflow:auto;
-}
-
-.bo-kaap{
-    float: left;
-    width: 400px;
-    margin-right: 20px;
-    overflow: auto;
-}
-
-.greenmarket{
-    float: right;
-    margin-right: 5px;
-    width:300px;
-    margin-left: 5px;
-}
-
-.p4{
-    float: left;
-    overflow: auto;
-    font-size: 15px;
-    width: 75%
-
-}
-
-.goodhope{
-    float: left;
-    width: 350px;
-    margin-right: 20px;
-}
-
 .p5{
     float: left;
     overflow: auto;
-    font-size: 20px;
-    width: 75%;
+    font-size: 20px;    
 }
 
 .h1{
@@ -138,30 +105,126 @@ font-size: 30px;
     font-size:60px;
 }
 
-.side-bar{
-    float: right;
-    width: 20%;
-    background-color: darkgoldenrod;
-    padding:5px;
-    margin: 0px;
-    overflow: auto;
-}
-
 .list1{
     float: left;
 }
 
-ul{
-    padding:0px;
-}
 .castle{
     font-size: 15px;
+    width:33%;
 }
 .market{
     font-size: 15px;
+    width: 33%;
 }
 
+
+
+.list2{
+    width: 33%;
+}
+
+.divider{
+    width: 100%;
+}
+
+.left{
+    float:left;
+    overflow:auto;
+    width:320px;
+    margin-right: 10%;
+}
+
+.right{
+    float:left;
+    width:300px;
+   
+}
+
+
+
+.histimage{
+    width:300px;
+    height:200px;
+    float:
+    
+}
+
+.fact{
+
+    width:300px;
+    padding-inline-start: 20px;
+   float: right;
+}
+
+
+.main{
+    height:20px;
+}
+.center{
+    width:300px;
+    float:left;
+    margin-right: 10%;
+}
+
+ul{
+    margin:0px;
+    
+
+}
+
+li{
+    margin:0px;
+
+}
 h5{
-    font-size: 20px;
+    float: left;
+    width: 100%;
+    font-size: 30px;
+}
+h4{
+    float: left;
+    width: 100%;
+    font-size: 30px;
 }
 
+
+h3{
+    
+    font-size: 30px;
+}
+h6{
+    font-size: 15px;
+}
+
+
+@media (max-width:800px){
+
+.right{
+    float:left;
+    width:100%;
+}
+
+.left{
+    float:left;
+    width:100%;
+
+}
+    
+.center{
+    float:left;
+    width:100%;
+
+}
+
+.fact{
+    float:left;
+}
+.lists{
+    float: right;
+}
+.histimage{
+    margin-right: 5px;
+    float: left;
+}
+}
