@@ -252,7 +252,249 @@ p {
 
 ul.fact{
   padding-left: 0px;
+  width: 100%;
 }
 li{
   font-size: 15px;
+
+}
+.paris{
+  height:150px;
+  width: 150px;
+  float:left;
+  margin-right: 10px;
+}
+.p1{
+  float: left;
+  width:100%;
+
+}
+.Cities{
+  overflow: auto;
+  font-size: 30px;
+  width: 100%;
+
+ 
+}
+.Languages{
+ float: left;
+ font-size: 30px;
+ width: 100%;
+}
+.p3{
+ 
+  font-size: 30px;
+  float:left;
+  width:100%;
+}
+
+table,th,td{
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+th{
+  text-align: left;
+}
+
+.history{
+float: left;
+font-size: 30px;
+}
+
+.parisdiv{
+  float:left;
+  width: 75%;
+  overflow: auto; 
+}
+
+.table{
+  float: left;
+  overflow: auto;
+  min-width: 100%;
+}
+
+.p2{
+  float: left;
+  overflow: auto;
+}
+
+.p5{
+  float: left;
+  overflow: auto;
+  font-size: 20px;    
+}
+
+.h1{
+
+  font-size:60px;
+}
+
+.list1{
+  float: left;
+}
+
+.castle{
+  font-size: 15px;
+  width:33%;
+}
+.market{
+  font-size: 15px;
+  width: 33%;
+}
+
+
+
+.list2{
+  width: 33%;
+}
+
+.divider{
+  width: 100%;
+}
+
+
+
+
+
+
+.main{
+  height:20px;
+}
+
+li{
+  margin:0px;
+
+}
+h5{
+  float: left;
+  width: 100%;
+  font-size: 30px;
+}
+h4{
+  float: left;
+  width: 100%;
+  font-size: 30px;
+}
+
+
+h3{
+  
+  font-size: 30px;
+}
+h6{
+  font-size: 15px;
+}
+
+
+@media (min-width:800px){
+
+.right{
+  float:right;
+  max-width:30%;
+}
+
+.left{
+  float:left;
+  max-width:30%;
+  padding: 10px;
+  
+
+}
+  
+.center{
+  float:left;
+  max-width:30%;
+  padding: 10px;
+
+}
+
+
+.fact{
+float:right;
+font-size: 10px;
+  
+
+}
+.histimage{
+width: 250px;
+height: 150px;
+  float: left;
+}
+
+
+}
+
+
+.right{
+  float:right;
+  width:100%;
+  padding: 15px;
+  margin: 5px;
+
+}
+
+.left{
+  float:left;
+  width:100%;
+  padding: 15px;
+  margin: 5px;
+
+}
+  
+.center{
+  float:left;
+  max-width:30%;
+  padding: 15px;
+  margin: 5px;
+
+}
+
+
+.histimage{
+  margin-right: 20px;
+  float: left;
+}
+
+.histimage{
+  width: 200px;
+  height: 150px;
+  float: left;
+
+  }
+  li{
+      font-size: 15px;
+  
+  }
+.histimage{
+  float: left;
+}
+ul.fact{
+  padding-left: 0px;
+
+
+}
+.me{
+    
+  width:280px;
+  top: 10mm;
+  display: block;
+}
+
+.h2{
+ float:left;
+ width:50%;
+  font-size: 50px;
+
+}
+.paris{
+  height:150px;
+  width: 150px;
+  float:left;
+  margin-right: 10px;
+}
+.p1{
+  float: left;
+  width:100%;
+
 }

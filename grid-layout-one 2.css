@@ -1,0 +1,120 @@
+th,tr,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: darkgoldenrod;
+}
+body{
+    background-color: lightblue;
+}
+ul{
+    padding: 0px;
+    margin: 20px;
+}
+h6{
+    font-size: 25px;
+}
+h5{
+    font-size: 25px;
+   padding-top: 1em;
+}
+h4{
+    margin-top: 5px;
+    font-size: 25px;
+}
+u{
+    font-size: 20px;
+}
+h3{
+    font-size: 
+}
+.col-3{
+    float: right;
+}
+
+@media (min-width:800px){
+
+    .right{
+        float:right;
+        max-width:30%;
+    }
+    
+    .left{
+        float:left;
+        max-width:30%;
+        padding: 10px;
+        
+    
+    }
+        
+    .center{
+        float:left;
+        max-width:30%;
+        padding: 10px;
+    
+    }
+    
+    
+    .fact{
+    float:right;
+    font-size: 10px;
+        
+    
+    }
+    .img.col-12{
+    width: 250px;
+    height: 150px;
+        float: left;
+    }
+    
+    
+    }
+    
+    
+    .right{
+        float:right;
+        width:100%;
+        padding: 15px;
+        margin: 5px;
+    
+    }
+    
+    .left{
+        float:left;
+        width:100%;
+        padding: 15px;
+        margin: 5px;
+    
+    }
+        
+    .center{
+        float:left;
+        max-width:30%;
+        padding: 15px;
+        margin: 5px;
+    
+    }
+    
+    
+    .img.col-12{
+        margin-right: 20px;
+        float: left;
+    }
+    
+    .img{
+        width: 200px;
+        height: 150px;
+        float: left;
+    
+        }
+        li{
+            font-size: 15px;
+        
+        }
+    .img.col-12{
+        float: left;
+    }
+    ul.fact{
+        padding-left: 0px;
+    
+    
+    }
