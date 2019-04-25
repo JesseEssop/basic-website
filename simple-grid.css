@@ -176,14 +176,15 @@ p {
 
   .col-3 {
     width: 21%;
-    float: right;
+    float: left;
+    margin-right: 5px;
   }
 
   .col-4 {
     width: 350px;
-    margin-right: 0px;
-    margin:10px;
-    padding: 15px;
+   
+    margin:5px;
+    padding: 5px;
     float: left;
   }
 
@@ -218,7 +219,7 @@ p {
   }
 
   .col-12 {
-    width: 96%;
+    max-width: 100%;
     float: left;
   }
 
@@ -232,7 +233,7 @@ p {
 .header {
    
   float:left;
-  width: 100%;
+  max-width: 100%;
   background-image: url(tablemountain.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -301,55 +302,12 @@ float: left;
 font-size: 30px;
 }
 
-.parisdiv{
-  float:left;
-  width: 75%;
-  overflow: auto; 
-}
+
 
 .table{
   float: left;
   overflow: auto;
   min-width: 100%;
-}
-
-.p2{
-  float: left;
-  overflow: auto;
-}
-
-.p5{
-  float: left;
-  overflow: auto;
-  font-size: 20px;    
-}
-
-.h1{
-
-  font-size:60px;
-}
-
-.list1{
-  float: left;
-}
-
-.castle{
-  font-size: 15px;
-  width:33%;
-}
-.market{
-  font-size: 15px;
-  width: 33%;
-}
-
-
-
-.list2{
-  width: 33%;
-}
-
-.divider{
-  width: 100%;
 }
 
 
@@ -467,6 +425,7 @@ height: 150px;
   }
 .histimage{
   float: left;
+  margin-right: 25px;
 }
 ul.fact{
   padding-left: 0px;
@@ -496,4 +455,8 @@ ul.fact{
   float: left;
   width:100%;
 
+}
+body{
+padding: 0em;
+ height: auto;
 }
