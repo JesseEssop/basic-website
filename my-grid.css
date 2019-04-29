@@ -1,0 +1,22 @@
+.place img {
+    float: left;
+    margin-right: 25px;
+}
+.me{
+    
+    width:280px;
+    top: 10mm;
+    display: block;
+}
+body {
+            
+    font-family: fantasy;
+    width: 100%;
+    background-color: lightblue; 
+
+}
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
