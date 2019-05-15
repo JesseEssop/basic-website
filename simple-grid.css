@@ -9,13 +9,10 @@
 
 html,
 body {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  left: 0;
-  top: 0;
-  font-size: 100%;
+ 
+  max-width: 100%;
+  margin: 1px;
+ 
 }
 
 /* ROOT FONT STYLES */
@@ -53,9 +50,7 @@ h6 {
 }
 
 p {
-  font-size: 1.125rem;
-  font-weight: 200;
-  line-height: 1.8;
+  max-width: 100%;
 }
 
 .font-light {
@@ -94,13 +89,13 @@ p {
 
 .container {
   max-width: 100%;
-  margin: 10px;
+ 
   
 }
 
 .row {
   position: relative;
-  width: 100%;
+  max-width: 100%;
 }
 
 .row [class^="col"] {
@@ -169,7 +164,7 @@ p {
 }
 
 .col-12-sm {
-  width: 96%;
+  max-width: 96%;
 }
 
 .row::after {
@@ -231,6 +226,7 @@ p {
 
   .col-11 {
     width: 87.66%;
+    padding: 0px
   }
 
   .col-12 {

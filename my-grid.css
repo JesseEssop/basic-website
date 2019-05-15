@@ -4,15 +4,17 @@
 }
 .me{
     
-    width:280px;
+    max-width: 280px;
     top: 10mm;
-    display: block;
+    display: block; 
+    padding-right: 0px;
 }
 body {
             
     font-family: fantasy;
-    width: 100%;
+    max-width: 100%;
     background-color: lightblue; 
+   padding: 0em;
 
 }
 table,th,td{
